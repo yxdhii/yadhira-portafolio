@@ -1,6 +1,6 @@
 # 🌸 Yadhira Saavedra — Portafolio Personal
 
-> Portafolio personal que refleja mi trayectoria como estudiante de Ingeniería de Sistemas apasionada por el análisis de datos y el diseño UX/UI. Diseño oscuro con estética futurista y animaciones suaves.
+> Portafolio personal que refleja mi trayectoria como estudiante de Ingeniería de Sistemas apasionada por el análisis de datos y el diseño UX/UI. Diseño oscuro con animaciones suaves.
 
 ---
 
