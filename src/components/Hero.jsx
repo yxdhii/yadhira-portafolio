@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 
 const typingPhrases = [
-  'Data Analyst en Formación',
-  'Apasionada por los datos',
-  'Estudiante de Ing. de Sistemas e informática',
-  'Exploradora de UX/UI',
+  'Systems Engineering Student',
+  'Frontend Developer',
+  'Aspiring Data Analyst',
+  'UX/UI Designer',
 ]
 
 export default function Hero() {
@@ -64,7 +64,7 @@ export default function Hero() {
             style={{ fontFamily: 'JetBrains Mono, monospace', color: '#FF4D8D', borderColor: 'rgba(255,77,141,0.2)' }}
           >
             <span className="w-2 h-2 rounded-full animate-glow" style={{ background: '#FF4D8D', boxShadow: '0 0 8px #FF4D8D' }} />
-            Disponible para aprender y crecer
+            Open to learning & growth
           </div>
 
           
@@ -85,8 +85,8 @@ export default function Hero() {
 
           
           <p className="text-base mb-10 max-w-lg mx-auto lg:mx-0" style={{ color: '#9490b0', lineHeight: 1.8 }}>
-            Apasionada por los datos, la tecnología y el diseño UX/UI.
-            Actualmente aprendiendo y fortaleciendo mis habilidades en el área.
+            Passionate about web development, data analytics, and UX/UI design.
+            Always learning new tools and improving my skills.
           </p>
 
           
@@ -95,22 +95,22 @@ export default function Hero() {
               className="btn-primary px-8 py-3.5 rounded-full text-sm"
               onClick={() => document.querySelector('#proyectos')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              <span>Ver proyectos →</span>
+              <span>View My Work →</span>
             </button>
             <button
               className="btn-ghost px-8 py-3.5 rounded-full text-sm"
               onClick={() => document.querySelector('#contacto')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Contáctame
+              <span>Get in Touch</span>
             </button>
           </div>
 
           
           <div className="flex flex-wrap gap-8 mt-16 justify-center lg:justify-start">
             {[
-              { num: '7°', label: 'Ciclo activo' },
-              { num: '3+', label: 'Tecnologías aprendiendo' },
-              { num: '∞', label: 'Aprendizaje continuo' },
+              { num: '8°', label: 'Active Cycle' },
+              { num: '3+', label: 'Technologies Learning' },
+              { num: '∞', label: 'Continuous Learning' },
             ].map((s) => (
               <div key={s.label} className="text-center lg:text-left">
                 <div className="text-3xl font-black grad-text" style={{ fontFamily: 'Syne, sans-serif' }}>{s.num}</div>
