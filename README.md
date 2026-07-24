@@ -29,8 +29,17 @@
 # 🌸 Preview
 
 <p align="center">
-<img src="./docs/images/preview.png"/>
+  <a href="https://yadhira-portafolio.vercel.app" target="_blank">
+    <img src="./docs/images/preview.jpeg" alt="Portfolio Preview" width="100%">
+  </a>
 </p>
+
+<p align="center">
+  <a href="https://yadhira-portafolio.vercel.app">
+    <img src="https://img.shields.io/badge/_Live_Demo-FF4D8D?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+</p>
+
 
 ---
 
