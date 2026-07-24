@@ -108,8 +108,8 @@ export default function Hero() {
           
           <div className="flex flex-wrap gap-8 mt-16 justify-center lg:justify-start">
             {[
-              { num: '8°', label: 'Active Cycle' },
-              { num: '3+', label: 'Technologies Learning' },
+              { num: '8°', label: 'Current Semester' },
+              { num: '3+', label: 'Technologies' },
               { num: '∞', label: 'Continuous Learning' },
             ].map((s) => (
               <div key={s.label} className="text-center lg:text-left">
