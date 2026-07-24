@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 
 const links = [
-  { label: 'Inicio', href: '#inicio' },
-  { label: 'Sobre mí', href: '#sobre-mi' },
-  { label: 'Tecnologías', href: '#tecnologias' },
-  { label: 'Proyectos', href: '#proyectos' },
-  { label: 'Experiencia', href: '#experiencia' },
-  { label: 'Contáctame', href: '#contacto' },
+  { label: 'Home', href: '#inicio' },
+  { label: 'About Me', href: '#sobre-mi' },
+  { label: 'Tech Stack', href: '#tecnologias' },
+  { label: 'Projects', href: '#proyectos' },
+  { label: 'Education', href: '#experiencia' },
+  { label: 'Contact', href: '#contacto' },
 ]
 
 export default function Navbar() {
@@ -19,6 +19,31 @@ export default function Navbar() {
     window.addEventListener('scroll', onScroll)
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
+  useEffect(() => {
+  const sections = links.map((link) =>
+    document.querySelector(link.href)
+  )
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActive(`#${entry.target.id}`)
+        }
+      })
+    },
+    {
+      threshold: 0.5,
+    }
+  )
+
+  sections.forEach((section) => {
+    if (section) observer.observe(section)
+  })
+
+  return () => observer.disconnect()
+}, [])
 
   const handleNav = (href) => {
     setActive(href)
