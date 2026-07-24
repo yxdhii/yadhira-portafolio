@@ -3,40 +3,22 @@ import { BarChart2, GraduationCap, Building2, Palette } from 'lucide-react'
 
 const items = [
   {
-    period: '2022 — Presente',
-    title: 'Ingeniería de Sistemas — 7° ciclo',
-    org: 'Universidad Tecnológica del Perú',
-    desc: 'Formación académica en programación, bases de datos, ingeniería de software y sistemas de información. Proyectos universitarios que integran análisis de datos y desarrollo de sistemas.',
-    tags: ['Sistemas', 'Programación', 'BD', 'Software'],
+    period: '2022 — Present',
+    title: 'Systems Engineering Student — 8th Semester',
+    org: 'Technological University of Peru',
+    desc: 'Academic training in programming, databases, software engineering, and information systems. I have developed university projects that apply software development principles and strengthen my problem-solving and technical skills.',
+    tags: ['Programming', 'Databases', 'Software Engineering', 'Information Systems'],
     icon: Building2,
     color: '#22c55e',
   },
   {
-    period: '2026 — Presente',
-    title: 'Cursos Online — Google Data Analytics',
-    org: 'Google · Certificación',
-    desc: 'Actualmente cursando el programa de Google Data Analytics, enfocado en análisis de datos, limpieza, visualización y toma de decisiones basada en datos.',
-    tags: ['Análisis de datos', 'Google', 'Data Analytics'],
-    icon: GraduationCap,
-    color: '#a855f7',
-  },
-  {
-    period: '2026 — Presente',
-    title: 'Aprendizaje en Análisis de Datos',
-    org: 'Autodidacta',
-    desc: 'Estudio autónomo de Excel avanzado, SQL para consultas de bases de datos y fundamentos de Python con pandas. Práctica diaria con datasets reales descargados de Kaggle y otras fuentes públicas.',
-    tags: ['Excel', 'SQL', 'Python', 'Pandas'],
+    period: 'Continuous Learning',
+    title: 'Self-Learning & Practical Experience',
+    org: 'Proyectos personales y académicos',
+    desc: 'I complement my university education by developing academic and personal projects that allow me to apply my knowledge in programming, web development, and databases. I am also continuously learning new technologies and improving my skills through hands-on practice.',
+    tags: ['Web Development', 'Databases', 'Problem Solving', 'Continuous Learning'],
     icon: BarChart2,
     color: '#FF4D8D',
-  },
-  {
-    period: '2026 — Presente',
-    title: 'Práctica Personal en UX/UI',
-    org: 'Proyectos propios',
-    desc: 'Exploración de principios de diseño centrado en el usuario, wireframing y prototipado. Estudio de interfaces de aplicaciones reales para aplicar mejores prácticas de experiencia de usuario.',
-    tags: ['Figma', 'UX', 'UI', 'Diseño'],
-    icon: Palette,
-    color: '#ec4899',
   },
 ]
 
@@ -60,16 +42,16 @@ export default function Experiencia() {
         
         <div className="flex items-center gap-4 mb-4">
           <div className="w-8 h-px" style={{ background: 'linear-gradient(to right, transparent, #a855f7)' }} />
-          <span className="text-xs tracking-widest uppercase" style={{ color: '#a855f7', fontFamily: 'JetBrains Mono, monospace' }}>Trayectoria</span>
+          <span className="text-xs tracking-widest uppercase" style={{ color: '#a855f7', fontFamily: 'JetBrains Mono, monospace' }}>Journey</span>
         </div>
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-14 gap-4">
           <div>
             <h2 className="text-4xl lg:text-5xl font-black" style={{ fontFamily: 'Syne, sans-serif' }}>
-              Experiencia en{' '}
-              <span className="grad-text">Formación</span>
+              Education &{' '}
+              <span className="grad-text">Experience</span>
             </h2>
             <p className="mt-3 text-sm max-w-md" style={{ color: '#9490b0' }}>
-              Sin experiencia laboral formal todavía — pero con mucha práctica, curiosidad y aprendizaje constante.
+              Currently building my professional experience through academic projects, personal projects, and continuous learning.
             </p>
           </div>
         </div>
@@ -158,9 +140,9 @@ export default function Experiencia() {
             style={{ borderColor: 'rgba(255,77,141,0.15)' }}
           >
             <p className="text-base italic mb-2" style={{ color: '#c084fc' }}>
-              "El único camino al éxito es a través del aprendizaje constante."
+              "Every project is an opportunity to learn, grow, and create something new."
             </p>
-            <p className="text-xs" style={{ color: '#5a5770', fontFamily: 'JetBrains Mono, monospace' }}>— mi filosofía de vida</p>
+            <p className="text-xs" style={{ color: '#5a5770', fontFamily: 'JetBrains Mono, monospace' }}>— My life philosophy</p>
           </div>
         </div>
       </div>
