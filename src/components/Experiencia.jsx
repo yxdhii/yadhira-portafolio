@@ -14,7 +14,7 @@ const items = [
   {
     period: 'Continuous Learning',
     title: 'Self-Learning & Practical Experience',
-    org: 'Proyectos personales y académicos',
+    org: 'Personal & Academic Projects',
     desc: 'I complement my university education by developing academic and personal projects that allow me to apply my knowledge in programming, web development, and databases. I am also continuously learning new technologies and improving my skills through hands-on practice.',
     tags: ['Web Development', 'Databases', 'Problem Solving', 'Continuous Learning'],
     icon: BarChart2,
